@@ -4,7 +4,7 @@ int multiplication(int i, int j) {
 		printf("%d*%d=%d", i, j, i * j);
 		return 0;
 	}
-	if (i == 9) {
+	else if (i == 9) {
 		printf("%d*%d=%d ", i, j, i * j);
 		multiplication(i, j + 1);
 		return 0;
