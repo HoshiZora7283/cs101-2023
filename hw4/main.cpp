@@ -48,7 +48,7 @@ public:
 		}
 		while (1) {
 			system("CLS");
-			cout << "-- Tic Tac Toe -- CSIR@CGU\nPlayer 1 (X)   -   Player 2 (O)\n\n";
+			cout << "-- Tic Tac Toe -- CSIE@CGU\nPlayer 1 (X)   -   Player 2 (O)\n\n";
 			cout << "     ―     ―     \n" << "  " << n[0].num << "  ―  " << n[1].num << "  ―  " << n[2].num << "  \n";
 			cout << "     ―     ―     \n" << "――――――――――\n";
 			cout << "     ―     ―     \n" << "  " << n[3].num << "  ―  " << n[4].num << "  ―  " << n[5].num << "  \n";
