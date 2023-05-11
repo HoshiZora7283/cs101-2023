@@ -21,7 +21,6 @@ public:
 			cout << "fuel_up: " << v << " Gas_grade: " << gas;
 		}
 		return 0;
-		//cout<<"fuel_up: "<<
 	}
 	int set_Gas_grade(int Gas_grade) {
 		m_Gas_grade = Gas_grade;
@@ -113,6 +112,7 @@ public:
 		return m_Fueltank.fuel_up(v, gas);
 	}
 };
+
 class BMW_Car :public Car {
 private:
 	string m_DriveMode;
@@ -122,6 +122,7 @@ public:
 		m_DriveMode = "Rear-wheel";
 	}
 };
+
 class AUDI_Car :public Car {
 private:
 	string m_DriveMode;
